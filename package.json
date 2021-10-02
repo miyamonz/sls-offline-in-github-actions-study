@@ -1,0 +1,16 @@
+{
+  "name": "sls-offline-in-github-actions-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.60.3",
+    "serverless-offline": "^8.2.0"
+  }
+}

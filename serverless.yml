@@ -1,0 +1,18 @@
+org: miyamonz
+app: sls-offline-in-github-actions-study
+service: sls-offline-in-github-actions-study
+
+frameworkVersion: '2'
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-offline
