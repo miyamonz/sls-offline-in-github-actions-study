@@ -19,7 +19,6 @@ jobs:
           node-version: '14'
           cache: npm
 
-      - run: npm install -g serverless
       - run: npm install
 
       - name: start serverless offline
